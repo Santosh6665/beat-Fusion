@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatFusion-web Player:music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="beatfusion logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+
+            <div class="home bg-gray rounded m-1 p-1">
+                <!-- <div class="logo invert"><img src="logo.svg" alt=""></div> -->
+                <div><img src="beatfusion logo.png" alt="" height="80px">
+                    <div class="beatfusionlogo">BeatFusion</div>
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="home">Search</li>
+                </ul>
+
+
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp;
+                                PrivacyCenter</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav invert">
+
+                    <div class="hamburgeContainer">
+                        <img class="hamburger" src="hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path
+                                d="M8 12L16 12M8 12C8 11.2998 9.9943 9.99153 10.5 9.5M8 12C8 12.7002 9.9943 14.0085 10.5 14.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path
+                                d="M16 12L8 12M16 12C16 12.7002 14.0057 14.0085 13.5 14.5M16 12C16 11.2998 14.0057 9.99153 13.5 9.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>BeatFusion Playlist</h1>
+                <div class="cardContainer">
+
+
+
+
+
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <!-- <div class="abovebar">
+                    <div class="songinfo"></div>
+
+                    <div class="playbutton">
+                        <img width="35" id="previous" src="prisong.svg" alt="">
+                        <img width="35" id="play" src="pause.svg" alt="">
+                        <img width="35" id="next" src="nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img width="25px" src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="" id="volumecontroller" min="0" max="100" value="10">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="abovebar">
+
+
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img width="35" id="previous" src="prevsong.svg" alt="">
+                        <img width="35" id="play" src="play.svg" alt="">
+                        <img width="35" id="next" src="nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+
+                   
+                    <div class="songtime">
+
+                    </div>
+                    <div class="volume">
+                        <img width="25" src="volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
